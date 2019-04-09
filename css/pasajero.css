@@ -1,0 +1,105 @@
+@font-face{
+  font-family: "brush";
+  src: url(fuente/DKCinnabarBrush.ttf) format("truetype");
+}
+
+*{
+	margin: 5px;
+	padding: 1px;
+}
+
+.pasaje {
+	width:50%;
+	border: 1px solid #000;
+	border-radius: 2px;
+}
+
+.pasaje td {
+	text-align: center;
+	font-size: 16px;
+}
+
+.operacion{
+ width: 400px; 
+ margin: 0 auto;
+ text-align: center;
+}
+
+.operacion legend {
+  background-color: #fff;
+  font-family: "brush";
+  color: #ED1A24;
+} 
+
+.operacion fieldset{
+  background: #fff;
+  margin : 0 ; 
+  padding: .15em 0 0.55em;
+  border: 1px solid silver;
+}
+
+.operacion p {
+  background-color: #fff;
+  margin: 0px;
+}
+
+.operacion input {
+ font-family: 'brush';
+}
+
+.operacion input[type = submit] {
+  background-color:#ED1A24; 
+  color : #fff;      
+  padding: .5em 1em ; 
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer ;
+}
+
+.operacion input[type = submit]:focus,
+.operacion input[type = submit]:hover {
+  background-image : linear-gradient(transparent, rgba(0,0,0,0.05) 40%, rgba(0,0,0,0.1));
+}
+
+.ver {
+	width:50%;
+	border: 1px solid #000;
+	border-radius: 2px;
+}
+
+.ver td{
+	border: 1px solid #000;
+	border-radius: 2px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.ver th{
+	text-align: center;
+	font-size: 20px;
+}
+
+.ver input {
+ font-family: "brush";
+}
+
+.ver input[type = submit] {
+  background-color:#ED1A24; 
+  color : #fff;      
+  padding: .5em 1em ; 
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer ;
+}
+
+.ver input[type = submit]:focus,
+.ver input[type = submit]:hover {
+  background-image : linear-gradient(transparent, rgba(0,0,0,0.05) 40%, rgba(0,0,0,0.1));
+}
+
+a{
+  color: #ED1A24;
+  text-decoration: none;
+  font-family: "brush";
+  font-size: 20px;
+}

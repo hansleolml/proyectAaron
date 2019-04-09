@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <link href ="css/login.css" rel ="stylesheet" type ="text/css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <center><h1><font color="#ED1A24">Registro</font></h1></center>
+        <div class ="login">
+            <form action ="registraphp.php" method ="POST">
+            <fieldset>
+            <legend>Cuenta Nueva</legend> 
+              <table>
+                <tr><td><input title="nombre de usuario" type="text" class ="pass" name ="nombre" placeholder="Nombre" required> 
+                        <input title="Campo obligatorio" class ="pass" type="text" name ="apellido" placeholder="Apellido" required>
+                <tr><td><input title="Campo obligatorio" type ="text" name = "usuario" class ="pass" placeholder ="Nombre de usuario" required>
+                <tr><td><input title ="Campo obligatorio" class="pass" type ="password" name ="pass1" placeholder="Contraseña" required>
+                <tr><td><input title ="Campo obligatorio" class="pass" type ="password" name ="pass2" placeholder="Verificar Contraseña" required>
+              </table>   
+                <input type ="submit" value="Registro" id ="res">
+              </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

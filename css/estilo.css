@@ -1,0 +1,99 @@
+@font-face{
+           font-family: "embrace";
+           src: url(fuente/DKLiquidEmbrace.ttf) format("truetype");
+          }
+
+body{  
+  font-family: "embrace";
+}
+
+header{
+ 	width: 100%;
+}
+
+nav{
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+}
+
+nav ul{
+    list-style: none;
+}    
+
+nav > ul{
+ 	display: table;
+ 	overflow: hidden;
+ 	width: 100%;
+ 	background:#000;
+ 	position: relative;
+}
+
+nav > ul li {
+ 	display: table-cell;
+}
+
+nav > ul li a{
+	color: #fff;
+	background-color: #ED1A24;
+	font-family: "embrace";
+	display: block;
+	line-height: 20px;
+	padding: 20px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+nav > ul >li > a span > i {
+	background: #174459;
+	display: block;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	position: absolute;
+	top: -55px;
+	-webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+} 
+
+nav > ul >li > a span > i.icon {
+	display: block;
+	line-height: 60px;
+}
+
+nav > ul >li > a:hover >span >i {
+	top: 0;
+}
+
+/*Colores*/
+nav ul li a span .uno > i.icon {
+	background: #0e5061;
+}
+
+nav ul li a .dos > i.icon {
+	background: #53C630;
+} 
+
+nav ul li a .tres > i.icon {
+	background: #f25724;
+} 
+
+nav ul li a .cuatro > i.icon {
+	background: #37a4d9;
+} 
+
+
+
+
+
+
+

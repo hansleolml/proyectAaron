@@ -1,0 +1,23 @@
+.fotos{ 	
+  border: 0px solid #000;
+  border-radius: 3px;
+  background: #fff;
+  padding-left: 170px;
+  padding-right: 170px;
+}
+
+.fotos td{
+	text-align: center;
+} 
+
+.normal {
+  width: 1035px;
+  border: 0px solid #fff;
+  border-radius: 2px;
+}
+
+.normal td {
+  background: #fff;
+}
+
+

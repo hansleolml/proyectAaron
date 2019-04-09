@@ -1,0 +1,41 @@
+@font-face{
+  font-family: "embrace";
+    src: url(fuente/DKLiquidEmbrace.ttf) format("truetype");
+}
+
+.main {
+  width:90%;
+  max-width:1000px;
+  margin:20px auto;
+}
+
+.slides{
+  width:100%;
+}
+
+.slides img {
+  width:100%;
+}
+
+.slidesjs-pagination {
+  background: #ED1A24;
+  list-style:none;
+  overflow:hidden;
+}
+
+.slidesjs-pagination li {
+  float: left;
+}
+
+.slidesjs-pagination li a {
+  display: block;
+  color: #ED1A24;
+  padding: 1px 1px;
+  font-family: embrace;
+  text-decoration: none;
+}
+  
+.slides .active {
+  background: #ED1A24;
+}
+

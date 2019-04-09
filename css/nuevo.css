@@ -1,0 +1,102 @@
+ @font-face{
+  font-family: "brush";
+  src: url(fuente/DKCinnabarBrush.ttf) format("truetype");
+}
+
+*{
+	margin: 5px;
+	padding: 1px;
+}
+
+.pasaje {
+	width:50%;
+	border: 1px solid #000;
+	border-radius: 2px;
+}
+
+.pasaje td {
+	text-align: center;
+	font-size: 16px;
+}
+
+.registro{
+ width: 450px; 
+ margin: 0 auto;
+ text-align: center;
+}
+
+.registro legend {
+  background-color: #fff;
+  font-family: "brush";
+  color: #ED1A24;
+} 
+
+.registro fieldset{
+  background: #fff;
+  margin : 0 ; 
+  padding: .35em 0 0.75em;
+  border: 1px solid silver;
+  text-align: center;
+  font-family: "brush";
+}
+
+.registro select{
+	background: #fff;
+	background-position: 280px center;
+  font-family: "brush";
+  padding: 5px;
+  font-size: 13px;
+  border-radius: 5px;
+  width: 185px;
+}
+
+.registro input {
+ font-family: 'brush';
+ position: relative;
+}
+
+.registro input[type = text]{
+  text-align: center;
+  background-color: #fff;
+  padding: .5em .6em ;
+  border: 1px solid #ccc; 
+  box-shadow: inset 0 1px 3px #ddd;
+  border-radius: 4px; 
+}
+
+.registro .radio{
+  text-align: center;
+  background-color: #fff;
+  font-family: "brush";
+  font-size: 13px;
+}
+
+.registro .celda{
+  font-family: "verdana";
+}
+
+.registro .boton{
+  text-align: center;
+}
+
+.registro input[type = submit],
+.registro input[type = reset]{
+  background-color:#ED1A24; 
+  color : #fff;      
+  padding : .5em 1em ; 
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer ;
+}
+
+.registro input[type = submit]:focus,
+.registro input[type = reset]:focus,
+.registro input[type = submit]:hover,
+.registro input[type = reset]:hover{
+  background-image : linear-gradient(transparent, rgba(0,0,0,0.05) 40%, rgba(0,0,0,0.1));
+}
+
+a{
+  color: #ED1A24;
+  text-decoration: none;
+}
